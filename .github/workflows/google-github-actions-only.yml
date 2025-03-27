@@ -1,0 +1,10 @@
+name: google-github-actions-only
+
+on: [push]
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/setup-gcloud@v2
+      
