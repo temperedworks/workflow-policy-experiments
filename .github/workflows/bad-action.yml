@@ -1,0 +1,10 @@
+name: bad-action
+
+on: [push]
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: azure/setup-helm@v4.3.0
+      
